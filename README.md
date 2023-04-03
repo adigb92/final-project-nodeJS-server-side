@@ -21,3 +21,15 @@ URL: http://localhost:5200/api/cards/business-cards/:id
 7. Delete a specific business card by ID:
 Method: DELETE
 URL: http://localhost:5200/api/cards/business-cards/:id
+
+.env file content:
+
+NODE_ENV=development
+DB="mongodb://127.0.0.1:27017/react-server-side"
+JWTKEY="secret"
+port=5200
+
+
+
+
+
